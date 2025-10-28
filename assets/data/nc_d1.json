@@ -1,0 +1,62 @@
+{
+  "state": "NC",
+  "schools": [
+    {
+      "id": "duke",
+      "name": "Duke Blue Devils",
+      "conference": "ACC",
+      "city": "Durham",
+      "primaryColor": "#013A72",
+      "secondaryColor": "#FFFFFF",
+      "logo": "assets/logos/duke.png",
+      "roster": [
+        { "id": "duke-p1", "name": "Player One", "pos": "G", "number": 1, "height": "6'3", "year": "JR", "ppg": 12.4, "rpg": 3.1, "apg": 4.5 },
+        { "id": "duke-p2", "name": "Player Two", "pos": "F", "number": 5, "height": "6'8", "year": "SO", "ppg": 9.8, "rpg": 6.0, "apg": 2.1 }
+      ],
+      "schedule": [
+        { "date": "2025-11-12", "opponent": "UNC Asheville", "home": true, "status": "Scheduled" }
+      ]
+    },
+    {
+      "id": "unc",
+      "name": "North Carolina Tar Heels",
+      "conference": "ACC",
+      "city": "Chapel Hill",
+      "primaryColor": "#7BAFD4",
+      "secondaryColor": "#FFFFFF",
+      "logo": "assets/logos/unc.png",
+      "roster": [
+        { "id": "unc-p1", "name": "Player One", "pos": "G", "number": 2, "height": "6'2", "year": "SR", "ppg": 14.1, "rpg": 3.6, "apg": 5.0 }
+      ],
+      "schedule": [
+        { "date": "2025-11-10", "opponent": "Elon", "home": false, "status": "Scheduled" }
+      ]
+    },
+    {
+      "id": "ecu",
+      "name": "East Carolina Pirates",
+      "conference": "AAC",
+      "city": "Greenville",
+      "primaryColor": "#4B116F",
+      "secondaryColor": "#FDB927",
+      "logo": "assets/logos/ecu.png",
+      "roster": [
+        { "id": "ecu-p1", "name": "Player One", "pos": "F", "number": 22, "height": "6'7", "year": "JR", "ppg": 11.0, "rpg": 7.2, "apg": 1.8 }
+      ],
+      "schedule": []
+    },
+    {
+      "id": "campbell",
+      "name": "Campbell Fighting Camels",
+      "conference": "CAA",
+      "city": "Buies Creek",
+      "primaryColor": "#FF6F00",
+      "secondaryColor": "#000000",
+      "logo": "assets/logos/campbell.png",
+      "roster": [
+        { "id": "cup-p1", "name": "Player One", "pos": "G", "number": 11, "height": "6'1", "year": "SO", "ppg": 8.9, "rpg": 2.9, "apg": 3.2 }
+      ],
+      "schedule": []
+    }
+  ]
+}
