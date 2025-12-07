@@ -2,6 +2,7 @@ class Player {
   final String id, name, pos, height, year;
   final int number;
   final double ppg, rpg, apg;
+  final int? weightLbs; // optional
 
   Player({
     required this.id,
@@ -13,6 +14,7 @@ class Player {
     this.ppg = 0,
     this.rpg = 0,
     this.apg = 0,
+    this.weightLbs,
   });
 
   factory Player.fromJson(Map<String, dynamic> j) => Player(
@@ -25,6 +27,7 @@ class Player {
         ppg: (j['ppg'] ?? 0).toDouble(),
         rpg: (j['rpg'] ?? 0).toDouble(),
         apg: (j['apg'] ?? 0).toDouble(),
+        weightLbs: j['weightLbs'], // optional in JSON
       );
 }
 

@@ -8,6 +8,7 @@ class PlayerDetailScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final weightText = (player.weightLbs != null) ? ' • ${player.weightLbs} lbs' : '';
     return Scaffold(
       appBar: AppBar(title: Text(player.name)),
       body: Padding(
@@ -17,7 +18,7 @@ class PlayerDetailScreen extends StatelessWidget {
           'School: ${school.name}\n'
           'Position: ${player.pos}\n'
           'Jersey: #${player.number}\n'
-          'Height: ${player.height}\n'
+          'Height: ${player.height}$weightText\n'
           'Year: ${player.year}\n\n'
           'PPG: ${player.ppg.toStringAsFixed(1)}   '
           'RPG: ${player.rpg.toStringAsFixed(1)}   '
